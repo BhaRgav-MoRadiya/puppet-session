@@ -1,0 +1,9 @@
+users:
+  'user1':
+    username: userA
+    teamname: teamA
+    boxname: "%{fqdn}"
+  'user2':
+    username: userB
+    teamname: teamA
+    boxname: "%{fqdn}"

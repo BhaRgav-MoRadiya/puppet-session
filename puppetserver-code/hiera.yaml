@@ -1,0 +1,16 @@
+---
+:backends:
+  - yaml
+
+:logger: console
+
+:hierarchy:
+  - "environments/%{environment}/hieradata/%{project}/%{hostname}"
+  - "environments/%{environment}/hieradata/%{project}/common_%{project}"
+  - "environments/%{environment}/hieradata/common_%{environment}"
+  - "environments/%{environment}/hieradata/common"
+
+:yaml:
+  :datadir: "/etc/puppetlabs/code"
+
+:merge_behavior: deeper
