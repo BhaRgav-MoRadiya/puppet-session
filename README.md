@@ -1,4 +1,5 @@
 
+- Make sure to clone this repo. under /tmp as some paths a re hardcoded.
 - start docker compose.
 ```
     bash pupperware/docker-up.sh
