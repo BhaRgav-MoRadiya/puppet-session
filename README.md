@@ -1,5 +1,9 @@
 
-- Make sure to clone this repo. under /tmp as some paths a re hardcoded.
+- Make sure to clone this repo. under /tmp as some paths are hardcoded.
+- untar the pupperware.tar.gz
+```
+tar -xzf pupperware.tar.gz
+```
 - start docker compose.
 ```
     bash pupperware/docker-up.sh
