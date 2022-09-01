@@ -31,5 +31,5 @@ doker run -it --entrypoint bash dummy:1
 ```
 export ADDITIONAL_COMPOSE_SERVICES_PATH=${PWD}/pupperware/gem/lib/pupperware/compose-services
 export COMPOSE_FILE=${ADDITIONAL_COMPOSE_SERVICES_PATH}/postgres.yml:${ADDITIONAL_COMPOSE_SERVICES_PATH}/puppetdb.yml:${ADDITIONAL_COMPOSE_SERVICES_PATH}/puppet.yml
-docker-compose  down
+docker-compose  down --volume
 ```
