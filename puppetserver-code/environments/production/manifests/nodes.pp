@@ -3,15 +3,13 @@ node default {
 }
 
 
-node /production-.*/ {
-    notify {'hello from production-* regex..':}
-}
-
-
 node /production-puppet-.*/ {
     notify {'hello from production-puppet-* regex..':}
 }
 
+node /production-.*/ {
+    notify {'hello from production-* regex..':}
+}
 
 node 'production-puppet-1' {
     notify {'hello from production-puppet-1':}

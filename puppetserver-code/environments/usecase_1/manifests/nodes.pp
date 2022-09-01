@@ -1,6 +1,6 @@
 node default {
 
-  $str = 'Not a Confidential Files.Do not delete.'
+  $str = 'Its not a Confidential Files.Do not delete.'
 
   file{'/etc/somefile.txt':
     ensure  => file,

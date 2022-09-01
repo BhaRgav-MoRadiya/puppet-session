@@ -9,7 +9,7 @@
 
 
 node default {
-  $for_template = 'append Me...'
+  $for_template = 'append Me..'
 
   file{'/etc/somefile.txt':
     ensure  => file,
